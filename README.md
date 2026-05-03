@@ -1,228 +1,162 @@
-# 🚀 SUPERNOVA Application
+<div align="center" style="border: 2px solid #ccc; padding: 20px; border-radius: 12px; width: 80%; margin: auto; box-shadow: 0 0 10px rgba(0,0,0,0.15);">
+    <img
+        width="180"
+        height="220"
+        alt="Logo - SURE ProEd"
+        src="https://github.com/user-attachments/assets/88fa5098-24b1-4ece-87df-95eb920ea721"
+        style="border-radius: 10px;"
+    />
 
-SUPERNOVA Application is a local-first personal AI desktop assistant for Windows with a connected Python backend, Telegram remote control, and an Android companion app. It is built for real computer use, remote monitoring, and mobile access.
+  <h1 align="center" style="font-family: Arial; font-weight: 600; margin-top: 15px;">SURE ProEd (formerly SURE Trust) 
+      </h1>
+<h2 style="color: #2b6cb0; font-family: Arial;">Skill Upgradation for Rural youth Empowerment Trust</h2>
+</div>
 
-## ✨ What This Project Is
+<hr style="border: 0; border-top: 1px solid #ccc; width: 80%;" />
 
-- A Windows desktop assistant for everyday use.
-- A Python backend that handles APIs, automation, and AI routing.
-- A Telegram bot for quick remote control and alerts.
-- An Android app for mobile monitoring and interaction.
-- A single platform for conversation, system control, file handling, voice, vision, scheduling, and remote access.
+<div style="padding: 20px; border: 2px solid #ddd; border-radius: 12px; width: 90%; margin: auto; background: #fafafa; font-family: Arial;">
 
-## 🧩 Main Parts
+<h2 style = "color:#333;"> Student Details </h2>
+<div align = "left" style ="margin: 20px; font-size: 16px;">
+    <p><strong>Name:</strong> BOORA MANOJ KUMAR </p>
+    <p><strong>Email ID:</strong> manojboora13@gmail.com </p>
+    <p><strong>College Name:</strong> Jawaharlal Nehru Technological University, Hyderabad </p>
+    <p><strong>Branch/Specialization :</strong> Electronics and Communications Engineering (ECE) </p>
+    <p><strong>College ID:</strong> 21011A0409 </p>
+</div>
 
-- WPF desktop application for the Windows UI.
-- Python FastAPI backend for core logic and APIs.
-- Telegram bot for quick remote commands and alerts.
-- Android Flutter app for mobile control and monitoring.
+<hr style="border: 0; border-top: 1px solid #ccc; width: 80%;" />
 
-## 🎯 Why This Project Exists
+<h2 style="color:#333;"> Course Details </h2>
+<div align="left" style="margin: 20px; font-size: 16px;">
+    <p><strong>Course Opted:</strong> Generative AI </p>
+    <p><strong>Instructor Name:</strong> Prujith Radhakrishnan </p>
+</div>
+<div align="left" style="margin: 20px; font-size: 16px;">
+    <p><strong>Duration:</strong> 6 Months </p>
 
-- To make everyday computer work easier.
-- To reduce switching between many separate tools.
-- To let the user interact with one connected assistant.
-- To route each request to the right service and return useful results in simple language.
+<hr style="border: 0; border-top: 1px solid #ccc; width: 80%;" />
 
-## ⭐ Key Features
+<h2 style="color:#333;"> Trainer Details </h2>
+<div align="left" style="margin: 20px; font-size: 16px;">
 
-### 🖥️ Desktop Application (WPF)
-- Clean chat interface with WebView2 rendering
-- Real-time token streaming for AI responses
-- Voice control (Ctrl+Shift+Space hotkey)
-- System tray integration with quick access
-- Modern theming (dark, light, faded, shaded)
-- Settings panel with model and voice configuration
-- Connection status monitoring
+<p><strong>Trainer Name:</strong> Prujith Radhakrishnan</p>
+<p><strong>Trainer Email ID:</strong> <!–– Add trainer email ––></p>
+<p><strong>Trainer Designation:</strong> <!–– Add designation along with company––></p>
 
-### ⚙️ Backend Services (Python/FastAPI)
-- **AI Models:** Ollama (local), TypeGPT (cloud), INFIP (image generation)
-- **Voice:** Faster-Whisper STT, Piper/Melo TTS
-- **Vision:** Screenshot, OCR, element detection, find-and-click
-- **13 Tool Groups:** System control, files, browser, terminal, memory, scheduling, messaging, and more
-- **60+ Deterministic Commands** + LLM fallback routing
-- **Telegram Commands:** 20+ remote control actions (`/screenshot`, `/stats`, `/kill`, `/type`, `/click`, `/memory`, etc.)
-- **WebSocket Streaming:** Real-time metrics and responses
-- **SQLite Persistence:** Task scheduling, facts, history
+<hr style="border: 0; border-top: 1px solid #ccc; width: 80%;" />
 
-### 📱 Telegram Bot Remote Control
-- System monitoring (`/stats`, `/ps`)
-- Device control (`/mute`, `/unmute`, `/sleep`, `/lock`, `/restart`)
-- Application management (`/open`, `/close`)
-- Screen interaction (`/screenshot`, `/click`, `/type`)
-- File transfer and search
-- Task scheduling (`/schedule`, `/tasks`, `/cancel`)
-- Memory operations (`/memory`, `/forget`)
-- Voice message transcription
-- Model management (`/models`, `/setmodel`)
-- Rate limiting and security
+## **Table of Contents**
+- [Course Learning](#course-learning-to-be-edited-by-student)
+- [Projects Completed](#projects-completed)
+- [Project Introduction](#project-introduction)
+- [Technologies Used](#technologies-used)
+- [Roles and Responsibilities](#roles-and-responsibilities)
+- [Project Report](#project-report)
+- [Learnings from LST & SST](#learnings-from-lst--sst)
+- [Community Services](#community-services)
+- [Certificate](#certificate)
+- [Acknowledgments](#acknowledgments)
 
-### 🤖 Android Companion App (Flutter)
-- QR code pairing with desktop
-- Real-time chat via WebSocket
-- Desktop screenshot streaming (MJPEG)
-- Remote control (click, type, keyboard events)
-- File browser and transfer
-- System health dashboard
-- Settings management
-- JWT token authentication
-- Automatic reconnection
+<hr style="border: 0; border-top: 1px solid #ccc; width: 80%;" />
 
-### 🧠 Supported LLM Providers
-- **Ollama:** qwen2.5:7b, qwen3:8b, gemma4:e4b, qwen3-vl:4b (vision)
-- **TypeGPT:** openai/gpt-oss-120b, gpt-oss-20b, kimi-k2, deepseek-v3.1, ministral-14b, and more
-- **Image Generation:** INFIP with 8 models (img4, img3, qwen, lucid-origin, phoenix, sdxl, flux-schnell, sdxl-lite)
 
-### 👁️ Vision & Click Automation
-- Screenshot capture with region selection
-- PaddleOCR text extraction
-- Element detection with confidence scoring
-- 3 click strategies: confidence_first, exact_first, nearest_center
-- Configurable confidence thresholds
+## Overall Learning 
 
-### 🛠️ System Control & Automation
-- CPU, RAM, disk, battery monitoring
-- Volume and brightness control
-- Window management and app launching
-- Process enumeration and termination
-- PowerShell execution with safety validation
-- Clipboard operations
-- Safe file deletion
+> During the development of SUPERNOVA, I gained hands-on experience in building a complete end-to-end AI product that combines desktop, backend, and mobile systems. I worked on designing a modular architecture using C# (WPF) for the desktop interface and Python (FastAPI) for backend services, enabling real-time communication through REST APIs and WebSockets.
+I developed features involving system automation, file handling, scheduling, and remote device control, while also integrating AI models for natural language understanding, voice interaction (STT/TTS), and basic computer vision (OCR and screen interaction). I implemented a Telegram bot and an Android companion app to extend the system for remote access and monitoring.
+This project helped me strengthen my understanding of full-stack development, API design, asynchronous programming, and multi-device integration. I also gained practical experience in working with real-world AI systems, handling user inputs safely, and building scalable, user-focused software beyond simple chatbot applications.
 
-### 📂 File Management
-- Recursive file search with query matching
-- Create, read, delete, rename, move operations
-- Archive/unzip support
-- Upload/download via REST API
-- File metadata retrieval
+<h2 style="color:#333;"> Projects Completed </h2>
+<div align="left" style="margin: 20px; font-size: 16px;">
 
-### 🗓️ Scheduling & Memory
-- APScheduler-backed task scheduling
-- Persistent SQLite job store
-- Fact storage and retrieval
-- Conversation history archival
-- Task status tracking and cancellation
+<p><strong><a href="https://github.com/manojkumarfade/SUPERNOVA.git" target="_blank"><strong>→ Project Link</strong></a>
 
-### 🌐 Remote Access
-- Local WiFi network support
-- Optional ngrok HTTPS tunneling for internet access
-- JWT token-based authentication (30-day expiration)
-- QR code pairing flow
-- Session isolation per client
+</div>
 
-## 🏗️ Technical Architecture
+<!-- Project 1 -->
+<h3 id="project1">Project 1: SUPERNOVA AGENTIC APPLICATION</h3>
+<p>
+  SUPERNOVA is a local-first personal AI desktop assistant for Windows that connects a WPF desktop app, Python FastAPI backend, Telegram bot, and Android companion into one unified system. It allows users to control their PC through natural language, voice, automation tools, and remote access from mobile or messaging platforms.
+The system combines chat, system control, file operations, browser automation, vision (OCR and screen interaction), scheduling, and memory into a single assistant that works across desktop and mobile. It supports both local and cloud AI models, offers real-time streaming responses, and enables remote monitoring and control through Telegram and Android. Built with a modular architecture, SUPERNOVA is designed as a practical, extensible product for everyday computing, not just a chatbot.
+</p>
+<p>
+  <a href="https://github.com/sure-trust/BOORA-MANOJ-KUMAR-g3-gen-ai/blob/6e3f9dea3bad066065bd8f0b61df03202b6410d3/Final%20capstone%20project/Major%20Project%20REPORT.pdf" target="_blank"><strong>→ View Full Project Report</strong></a>
+</p>
 
-**Frontend:** C# WPF with WebView2 for modern web UI rendering
-**Backend:** Python 3.9+ with FastAPI (Uvicorn on port 8765)
-**Communication:** HTTP REST + WebSocket, YAML configuration
-**Database:** SQLite with WAL mode for persistence
-**Task Scheduler:** APScheduler with async support
-**Automation:** PyAutoGUI, PyWinAuto, Playwright for browser control
-**Voice Processing:** Faster-Whisper + Piper/Melo TTS engines
-**Mobile:** Flutter with provider state management, dio/websockets networking
-**Deployment:** Standalone Python backend + WPF desktop + Flutter APK
-**Security:** JWT tokens, AES-256 encryption, environment-based secrets
 
-## 💡 Product Highlights
 
-- **Unified Platform:** Desktop + Backend + Telegram + Android as one system
-- **Local-First Privacy:** Runs locally on Windows with optional cloud services
-- **AI-Powered:** Deterministic routing + LLM fallback for command understanding
-- **Multi-Channel Access:** Chat on desktop, control via Telegram, manage from phone
-- **Real-World Automation:** 60+ tools across system, files, browser, voice, vision
-- **Extensible Architecture:** Modular services for future growth
-- **Production-Ready:** Error handling, logging, rate limiting, security
+## **References**
 
-## 📌 Project Status
+- [Wikipedia](https://wikipedia.com)
+- [FastAPI Documentation](https://devdocs.io/fastapi/)
+- [Uvicorn Documentation ](https://uvicorn.dev/)
+- [WPF Documentation](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/)
+- [.NET Documentation](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/)
+- [Flutter Documentation](https://docs.flutter.dev/)
+- [Dart Documentation](https://dart.dev/docs)
+- [Telegram Bot API Documentation ](https://core.telegram.org/)
+- [Python Documentation ](https://docs.python.org/3/)
+- [APScheduler Documentation ](https://apscheduler.readthedocs.io/en/3.x/)
+<!--you can add refrences over here in same syntax as above -->
+---
 
-The project already includes the core system architecture and major application surfaces. The Windows application, backend services, Telegram integration, and Android companion app are part of the same product vision, with the Windows `.exe` package and Android APK release planned next.
 
-## 🧰 System Requirements
+## **Learnings from LST and SST**
 
-- **Windows 10/11** (64-bit)
-- **8 GB RAM** minimum (16 GB recommended for local LLMs)
-- **10 GB disk space** (20+ GB with Ollama models)
-- **Python 3.9+** for backend
-- **.NET 6/7** for desktop app
-- **Flutter SDK** for Android app (optional)
+<!-- add your experiences over here -->
+> The LST and SST sessions significantly improved my communication, teamwork, and problem-solving abilities. I gained confidence in presenting ideas clearly, collaborating effectively in a team environment, and managing time and responsibilities professionally. These sessions helped me develop a positive attitude, adaptability, and workplace readiness alongside my technical learning.
+---
 
-## 🔗 Repository Links
+## **Community Services**
 
-- This is the GitHub repo: https://github.com/manojkumarfade/SUPERNOVA
-- Windows release file: [Insert .exe release link here]
-- Android release file: [Insert APK release link here]
-- Documentation: See REPORT.md for detailed architecture guide
+<!-- add descreption in your own words -->
 
-## ⚡ Quick Start
+During my internship period, I participated in multiple community-oriented activities .....<!-- add descreption in your own words -->
 
-### Backend Setup
-```bash
-git clone https://github.com/manojkumarfade/SUPERNOVA.git
-cd SUPERNOVA
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements/base.txt
-cp config.yaml.example config.yaml
-# Edit config.yaml with API keys and settings
-python main.py
-# Backend runs on http://127.0.0.1:8765
-```
+### **Activities Involved**
+  
+ <!-- add the location where you have panted -->
+- **Tree Plantation Drive** – Participated by planting trees and contributing to environmental improvement.
 
-### Desktop App
-```bash
-# In Visual Studio or command line
-cd NOVA_WPF
-dotnet restore
-dotnet build
-dotnet run
-```
+  <!-- add the location where you helped -->
+- **Helping Elder Citizens** – Assisted two elderly individuals with simple daily tasks and provided support where needed. 
 
-### Telegram Bot
-1. Create bot with @BotFather
-2. Add token and user ID to config.yaml
-3. Backend auto-registers on startup
+<!-- you can write impacts according to your experience in your words-->
 
-### Android App
-```bash
-cd Android\flutter\supernova_remote
-flutter pub get
-flutter build apk --release
-flutter install
-```
+### **Impact / Contribution**
 
-### Local Access
-- Desktop: `http://127.0.0.1:8765` (backend)
-- Telegram: @YourBotName commands
-- Android: Pair via QR code (Settings -> Show Pairing QR)
+- Actively participated in promoting a greener and cleaner surroundings.
+- Offered personal assistance to elder citizens, strengthening community bonds.
+- Improved skills in communication, coordination, and social responsibility.
 
-### Remote Access (Optional)
-1. Get ngrok token from https://ngrok.com
-2. Set in config.yaml: `ngrok_token: "your-token"`
-3. Backend auto-creates tunnel on startup
-4. Share tunnel URL with remote clients
+### **Photos**
 
-## ⚙️ Configuration Options
+<!-- add your photos below -->
+<!-- change url below with your image urls (inside  src='')-->
 
-Key settings in `config.yaml`:
-- `OLLAMA_PRIORITY_MODELS`: Local LLM selection
-- `voice_hotkey`: Voice activation key (default: Ctrl+Shift+Space)
-- `vision_click_strategy`: UI automation strategy (confidence_first, exact_first, nearest_center)
-- `screen_stream_fps`: MJPEG stream frame rate (default: 15)
-- `android_pairing_enabled`: Enable QR code pairing
-- `telegram_enabled`: Enable Telegram bot
-- `ngrok_enabled`: Enable remote tunnel (requires token)
 
-## 🚀 Future Enhancements
+<div align="center">
+<img width="1024" height="1536" alt="Plantation" src="https://github.com/user-attachments/assets/ab655f24-180e-4206-bbcd-3019eefe658f" />
+<img width="1024" height="1536" alt="Senior citizens" src="https://github.com/user-attachments/assets/ea290f8e-bef0-4475-8a29-538172d87514" />
+</div>
 
-- Standalone Windows `.exe` release package
-- Android APK release on Play Store
-- Enhanced mobile UI with more dashboard widgets
-- Advanced task automation workflows
-- Additional safety and access controls
-- Better notifications and status updates
-- Cross-platform support (macOS, Linux backend)
+--- 
 
-## 📄 License
+## **Certificate**
 
-Add your chosen license here before publishing the repository.
+The internship certificate serves as an official acknowledgment of the successful completion of my training period. It will be issued by the organization upon fulfilling all required tasks and meeting the performance expectations of the program. The certificate validates the skills, experience, and contributions made during the internship.
 
+<!-- add your certificate image url below (inside src='')-->
+
+<p align="center">
+<img src="https://github.com/Lord-Rahul/Practice-Programs/blob/main/react/1/public/Gemini_Generated_Image_a6w8rda6w8rda6w8.png?raw=true" alt="Internship Certificate" width="80%">
+</p>
+
+---
+
+## **Acknowledgments**
+
+<!-- you can add Acknowledgments over here in same syntax as below . eg trainer name , company name , role etc -->
+
+- [Prof. Radhakumari Challa](https://www.linkedin.com/in/prof-radhakumari-challa-a3850219b) , Executive Director and Founder - [SURE Trust](https://www.suretrustforruralyouth.com/)
