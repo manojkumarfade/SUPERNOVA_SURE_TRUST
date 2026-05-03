@@ -81,7 +81,7 @@ This project helped me strengthen my understanding of full-stack development, AP
 The system combines chat, system control, file operations, browser automation, vision (OCR and screen interaction), scheduling, and memory into a single assistant that works across desktop and mobile. It supports both local and cloud AI models, offers real-time streaming responses, and enables remote monitoring and control through Telegram and Android. Built with a modular architecture, SUPERNOVA is designed as a practical, extensible product for everyday computing, not just a chatbot.
 </p>
 <p>
-  <a href="https://github.com/sure-trust/BOORA-MANOJ-KUMAR-g3-gen-ai/blob/6e3f9dea3bad066065bd8f0b61df03202b6410d3/Final%20capstone%20project/Major%20Project%20REPORT.pdf" target="_blank"><strong>→ View Full Project Report</strong></a>
+  <a href="https://github.com/manojkumarfade/SUPERNOVA_SURE_TRUST/blob/81289ee36ea945da96fd2ac23064aade927bf946/Major%20Project%20REPORT.pdf" target="_blank"><strong>→ View Full Project Report</strong></a>
 </p>
 
 
